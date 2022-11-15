@@ -1,0 +1,29 @@
+.card {
+    background-color: var(--white-color);
+    border: 1px solid #EEEEEE;
+    width: 370px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &__image {
+        position: relative;
+        overflow: hidden;
+        height: 294px;
+    }
+
+    &__pretitle {
+        padding: 20px 24px;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+    }
+
+    &__p {
+        font-size: 16px;
+        line-height: 1.86;
+        color: var(--secondary-text-color);
+    }
+}

@@ -1,0 +1,38 @@
+.hero {
+    background-color: var(--bg-black-color);
+    background-image: var(--gradient),
+        url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    &__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+        }
+    
+    &__title {
+        color: var(--white-color);
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        max-width: 696px;
+        display: inline-block;
+    }
+
+    &__btn {
+        padding: 10px 32px;
+    }
+}
+
+
+
+
+
